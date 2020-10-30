@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <h2> primer ejercicio de 10</h2>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <form> 
+      <div class="container" id='app'>
+        <div class="form-group">
+        <label>Ingrese el número A</label>
+        <input type="number" v-model="number1" class="form-control">
+        </div>
+        <div class="form-group">
+        <label>Ingrese el número B</label>
+        <input type="number" v-model="number2" class="form-control">
+        </div>
+        <button type="button" v-on:click="validate" class="btn btn-warning">validar</button>
+        </form>
+        </div>
+        </div>
+      </form>
+      <script src="js/vue.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
